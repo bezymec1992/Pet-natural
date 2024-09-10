@@ -168,14 +168,14 @@ ul li {
   color: #917704;
 }
 
-.intro main {
+.intro .main {
   padding: 20px 15px 8px;
   max-width: 1190px;
   width: 100%;
   margin: 0 auto;
 }
 
-.intro main .intro__title {
+.intro .main .intro__title {
   color: #F9E994;
   font-size: 28px;
   font-weight: 700;
@@ -193,7 +193,7 @@ ul li {
   }
 }
 
-.intro main .main__wrapper {
+.intro .main .main__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,7 +203,7 @@ ul li {
 }
 
 @media (min-width: 992px) {
-  .intro main .main__wrapper {
+  .intro .main .main__wrapper {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: relative;
@@ -214,19 +214,19 @@ ul li {
 }
 
 @media (min-width: 1140px) {
-  .intro main .main__wrapper {
+  .intro .main .main__wrapper {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
 }
 
-.intro main .cats-banner {
+.intro .main .cats-banner {
   display: none;
 }
 
 @media (min-width: 1140px) {
-  .intro main .cats-banner {
+  .intro .main .cats-banner {
     position: absolute;
     bottom: 0;
     left: 50%;
